@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="3" name="Bloodline Necromancer"/>
+        <card number="2" name="Adrix and Nev, Twincasters"/>
+        <card number="2" name="Manifestation Sage"/>
+        <card number="3" name="Biomathematician"/>
+        <card number="2" name="Mystic Reflection"/>
+        <card number="5" name="Island"/>
+        <card number="3" name="Forest"/>
+        <card number="3" name="Preordain"/>
+        <card number="3" name="Naban, Dean of Iteration"/>
+        <card number="1" name="Ghoulcaller Gisa"/>
+        <card number="3" name="Buried Alive"/>
+        <card number="3" name="Victimize"/>
+        <card number="3" name="Apprentice Necromancer"/>
+        <card number="4" name="Augur of Bolas"/>
+        <card number="2" name="Village Rites"/>
+        <card number="7" name="Swamp"/>
+        <card number="3" name="Clearwater Pathway"/>
+        <card number="3" name="Barkchannel Pathway"/>
+        <card number="3" name="Bone Splinters"/>
+        <card number="2" name="Cavern of Souls"/>
+    </zone>
+    <zone name="side">
+        <card number="1" name="Kasmina, Enigma Sage"/>
+        <card number="2" name="Windfall"/>
+        <card number="1" name="Obsessive Stitcher"/>
+        <card number="1" name="Saw It Coming"/>
+        <card number="1" name="Cryptic Command"/>
+        <card number="1" name="Mana Leak"/>
+        <card number="1" name="Wizard's Retort"/>
+        <card number="1" name="Beguiler of Wills"/>
+        <card number="1" name="Oona, Queen of the Fae"/>
+        <card number="1" name="Familiar's Ruse"/>
+        <card number="1" name="Dismember"/>
+        <card number="1" name="Vapor Snag"/>
+        <card number="1" name="Aether Adept"/>
+        <card number="1" name="Frilled Mystic"/>
+        <card number="1" name="Glen Elendra Archmage"/>
+        <card number="1" name="Silumgar Sorcerer"/>
+    </zone>
+</cockatrice_deck>
