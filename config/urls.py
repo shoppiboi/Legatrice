@@ -19,5 +19,5 @@ from legatrice import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.homePageView, name='home')
+    path('hello/', views.testFunction, name='test')
 ]
