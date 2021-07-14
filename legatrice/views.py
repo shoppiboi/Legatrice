@@ -20,6 +20,4 @@ def testFunction(request):
 
     card_legality_pairs = cl.main(lines, 'standard', False)
 
-    print(card_legality_pairs)
-
-    return HttpResponse(json.dumps(card_legality_pairs))    
+    return HttpResponse(json.dumps(card_legality_pairs))

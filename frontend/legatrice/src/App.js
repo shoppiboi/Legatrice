@@ -8,11 +8,12 @@ axios.defaults.xsrfCookieName = 'csrftoken'
 class App extends React.Component {
 
   state = {
-    currentFile: null
+    currentFile: null,
+    legalities: null
   };
 
   getLegalities = event => {
-    this.setState({ currentFile: event.target.files[0] });
+    this.setState({ currentFile: event.target.files[0], legalities: null });
   };
 
   printFile = event => {
@@ -25,7 +26,7 @@ class App extends React.Component {
     axios
     .post('/hello/', formData,
       {headers: {'Content-Type': 'text/plain'}})
-    .then((res) => console.log(res.data));
+    .then((res) => this.setState( {legalities: res.data} ));
   };
 
   render() {
@@ -38,7 +39,17 @@ class App extends React.Component {
           </div>
           <button class="btn btn-primary" onClick={this.printFile}>Submit</button>
         </form>
+
+        <div className="conditional">
+            <div>{ !!(this.state.legalities)?        
+              Object.keys(this.state.legalities).map((key, index) => ( 
+                <p style={{fontSize: 12}} key={index}> {key}: {(this.state.legalities[key])}</p> 
+              ))
+            :"Nothing uploaded" }</div>
+        </div>
         </header>
+
+
       </div>
     )
   }
