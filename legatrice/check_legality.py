@@ -62,6 +62,6 @@ def main(lines, format_choice, ignore_sideboard):
 
     for name in card_names:
         card_legality_pairs[name] = retrieve_legalities(name, format_choice)
-        time.sleep(0.02)
+        time.sleep(0.05)
 
     return card_legality_pairs

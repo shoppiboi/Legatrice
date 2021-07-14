@@ -25,7 +25,7 @@ class App extends React.Component {
     axios
     .post('/hello/', formData,
       {headers: {'Content-Type': 'text/plain'}})
-    .then((res) => console.log(res));
+    .then((res) => console.log(res.data));
   };
 
   render() {

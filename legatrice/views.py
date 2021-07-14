@@ -22,10 +22,4 @@ def testFunction(request):
 
     print(card_legality_pairs)
 
-    # file = request.GET
-    # print(file)
-
-    # data = request.env
-    # print(file)
-
-    return HttpResponse(card_legality_pairs)
+    return HttpResponse(json.dumps(card_legality_pairs))    
